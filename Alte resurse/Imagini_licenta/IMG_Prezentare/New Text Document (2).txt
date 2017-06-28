@@ -1,0 +1,53 @@
+la construirea unui proiect nu este suficient sa implementam si gata
+un factor important din procesul de dezvoltare il reprezinta optimizarea 
+
+prin optimizare se intelege puterea sistemului software de a livra rezultatul intr-un timp cat mai scurt, utilizandu-se cat mai putine resurse
+Consider ca optimizarea trebuie sa faca parte din procesul de dezvoltare al produsului software
+In esenta, optimizarea face diferenta dintre un produs de nivel mediu si un produs robust, puternic, capabil sa ofera raspunsul intr-un timp satisfacator
+
+
+pentru a pune cat mai bine in evidenta importanta optimizarii am apelat la o problema din categoria np-hard, Se cunaste
+ca problemele din aceasta categorie au nevoie de foarta multa putere computationala. Asadar, am ales problema comisul voiajor.
+Aceasta este o problema de grafuri ce presupune determinarea ciclului hamiltonian de cost minim.
+Descriere imagine slide
+
+
+De ce necesita aceasta problema multa putere computationala?
+La o scurta analiza se observa ca numarul total de  solutii pentru un input cu n locatii este n-1! Pentru seturi cu un numar mic de orase se
+poate apela la brute force, dar pentru n cu dimensiuni mai mari brute force devine o metoda aproape imposibila.
+
+Asadar am apelat la Algoritmii genetici.
+Algoritmii genetici sunt tehnici adaptive de căutare euristică, bazate pe principiile geneticii și ale selecției naturale,
+enunțate de Darwin ("supraviețuiește cel care e cel mai bine adaptat"). Mecanismul este similar procesului biologic al 
+evoluției.
+
+
+prin aceasta lucrare am incercat sa demonstrez importanta optimizarii in procesul de dezvoltare
+
+pentru a pune cat mai bine acest lucru in evidenta, am optimizat problema comisul voiajor. Comisul voiajor face parte din categoria NP-hard
+
+Se stie ca problemele de acesst tip au nevoie de foarte multa putere computationala
+
+
+Comisul voiajor consta in determinarea ciclului hamiltonian de cost minim, intr-un graf complet
+
+pentru a rezolva aceasta problema am folosit algoritmi genetici, desi nu am avut acest  optional, discutand cu un prieten mi s-a parut interesanta ideea din spatele acestor algoritmi
+in plus aceasta abordare 
+
+1 - 2,5
+2 - 1,3
+3 - 2,4
+4 - 3,5
+5 - 4,1
+
+1 - 5,4
+2 - 5,3
+3 - 2,4
+4 - 3,1
+5 - 1,2
+
+1, 2, 3, 4, 5    1, 5, 2, 3, 4,
+
+1, 2, 5, 3, 4
+
+1 2 3 4 5    1 5 3 4 2 

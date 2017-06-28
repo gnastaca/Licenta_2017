@@ -1,0 +1,3 @@
+C:/Users/Geo/CLionProjects/TspNewversion/cmake-build-debug/CMakeFiles/TspNewversion.dir
+C:/Users/Geo/CLionProjects/TspNewversion/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Geo/CLionProjects/TspNewversion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
